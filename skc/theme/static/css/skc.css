@@ -429,3 +429,5 @@ p {
     white-space: normal;
     width: 28em;
 }
+
+#edit-bar {min-height:3em;}
