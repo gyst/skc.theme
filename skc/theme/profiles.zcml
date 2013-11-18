@@ -1,0 +1,14 @@
+<configure
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="skc.theme">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Schone Kleren Campagne Theme"
+      directory="profiles/default"
+      description='Extension profile for the "Schone Kleren Campagne" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
