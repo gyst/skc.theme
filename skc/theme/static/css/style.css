@@ -12,15 +12,15 @@ body {background: #FFFFFF;}
 
 /* Colors and fonts */
 body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 62.5%;}
-a:link, a:visited, #content a:link, dl.portlet a:link {color:#3F9FD9;}
+a:link, a:visited, #content a:link, dl.portlet a:link {color:#255780;}
 a:hover {color:#000;}
 h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
 h1 {color: #205C90;}
-h2, h3, h4, h5, h6 {color: #3F9FD9;}
+h2, h3, h4, h5, h6 {color: #255780;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
 #main {background:#FFFFFF; font-size: 1.3em; padding: 1em 0;}
 
-#nav {background: #3F9FD9;	text-align: left; color: #FFFFFF;}
+#nav {background: #255780;	text-align: left; color: #FFFFFF;}
 #nav a {color: #FFFFFF;}
 #nav a:hover, #nav li.selected a {padding-top: 1em;background: transparent;}
 

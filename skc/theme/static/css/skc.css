@@ -21,7 +21,7 @@ img, img.image-left, img.image-right, .captioned img {
     font-family: "Lato", Arial,Helvetica,sans-serif;
     font-weight: 700;
     -webkit-text-stroke: 1px rgba(0,0,0,0.1);
-    padding: 1em 0 1em 0.8em;
+    padding: 0em 0 0 0;
 
 }
 
@@ -36,7 +36,7 @@ img, img.image-left, img.image-right, .captioned img {
 
 #sections-wrapper
 {
-    background-color: #3F9FD9;
+    background-color: #255780;
     color: white;
 }
 
@@ -54,13 +54,13 @@ div.position-1\:4 {
 #nav
 {
     font-size: 140%;
-    background-color: #3F9FD9;
+    background-color: #255780;
     font-weight: bold;
 }
 
 #nav a:hover, #nav li.selected a {
     background-color: transparent;
-    color: #EE1D31;
+    color: #BDCCD9;
 }
 
 #portal-breadcrumbs
@@ -68,7 +68,7 @@ div.position-1\:4 {
     font-size: 110%;
     margin-left: 1.9em;
     margin-right: 1.5em;
-    border-bottom: 5px solid #3F9FD9;
+    border-bottom: 5px solid #255780;
     padding-top: 1.5em;
     padding-bottom: 0.8em;
 }
@@ -134,7 +134,7 @@ div.LSBox input#searchGadget
 
 .portlet
 {
-    border-bottom: 5px solid #3F9FD9;
+    border-bottom: 5px solid #255780;
     padding-bottom: 1em;
 }
 
@@ -316,11 +316,11 @@ dl.portlet li:last-child
 
 #content .tileItem {
     padding-top: 1em;
-    border-top: 2px dashed #3F9FD9;
+    border-top: 2px dashed #255780;
 }
 
 #content div.row {
-    border-bottom: 5px solid #3F9FD9;
+    border-bottom: 5px solid #255780;
 }
 #content .tile
 {
@@ -374,7 +374,7 @@ dl.portlet li:last-child
 
 #doormat-wrapper
 {
-    background-color: #3F9FD9;
+    background-color: #255780;
     font-size: 110%;
     line-height: 2em;
 }
