@@ -14,7 +14,7 @@
     <stylesheet title="fontawesome" applyPrefix="False" authenticated="False"
     bundle="" cacheable="False" compression="none" conditionalcomment=""
     cookable="False" enabled="True" expression=""
-    id="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"
+    id="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
     media="" rel="stylesheet" rendering="import"/>
     <stylesheet title="lato" applyPrefix="False" authenticated="False"
     bundle="" cacheable="False" compression="none" conditionalcomment=""
