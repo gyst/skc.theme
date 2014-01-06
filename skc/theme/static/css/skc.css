@@ -138,7 +138,7 @@ div.LSBox input#searchGadget
 
 .portlet
 {
-    border-bottom: 5px solid #255780;
+    border-bottom: 2px dashed #255780;
     padding-bottom: 1em;
 }
 
