@@ -276,6 +276,7 @@ dl.portlet li:last-child
     color: black;
     padding: 0.25em 0em 0.1em;
     border-bottom: 0.1em solid #c4161d;
+    line-height: 1.6em;
 }
 #category a.link-category:hover {
     background: none;
