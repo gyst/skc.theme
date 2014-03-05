@@ -1,3 +1,6 @@
+
+
+
 body
 {
     line-height: 180%;
@@ -399,17 +402,22 @@ p {
     line-height: 1.6em;
     margin: 0 0 1em;
 }
-
-.blue .galleria-info-description {
+.biggallery .galleria-thumbnails-container {
+    display: none;
+}    
+.biggallery .galleria-info-description {
     font: italic 12px/1.4 arial,sans-serif;
     margin: 0;
     color: #333333;
 }
 
+.biggallery .galleria-inner {
+    height: 800px;
+    width: 100%;
+}
 
-
-.blue .galleria-info {
-    background-color: rgba(63, 159, 217, 0.49);
+.biggallery .galleria-info {
+    background-color: rgba(190, 190, 190, 0.49);
     col
 }
 
