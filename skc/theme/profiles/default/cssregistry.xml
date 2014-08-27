@@ -17,6 +17,11 @@
     expression="request/HTTP_X_THEME_ENABLED | nothing"
     media=""
     />
+  <stylesheet
+    id="++theme++skc.theme/css/skcprint.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    media="print"
+    />
     <stylesheet title="fontawesome" applyPrefix="False" authenticated="False"
     bundle="" cacheable="False" compression="none" conditionalcomment=""
     cookable="False" enabled="True" expression=""
