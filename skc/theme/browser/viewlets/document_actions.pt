@@ -18,8 +18,10 @@
                                          target daction/link_target|nothing;
                                          title daction/description"
                          >
-                         <i tal:attributes="class python:'fa fa-' + normalizeString(daction['id']) + ' fa-2x'">
-                         </i>
+                         <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                         <i tal:attributes="class python:'fa fa-' + normalizeString(daction['id']) + ' fa-stack-1x fa-inverse'">
+                         </i></span>
                       </a>
                   </li>
             </ul>

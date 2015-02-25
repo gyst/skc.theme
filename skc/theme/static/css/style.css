@@ -1,4 +1,4 @@
-/*****************************   
+/*****************************
 beyondskins.Responsive - Diazo responsive theme for PLone
 Simples Consultoria - www.simplesconsultoria.com.br
 ******************************/
@@ -8,19 +8,27 @@ Simples Consultoria - www.simplesconsultoria.com.br
 /************** Responsive Diazo Magic ************************/
 
 /* Background images */
-body {background: #FFFFFF;}
+body {background: #5acd82; /* Old browsers */
+background: -moz-linear-gradient(top,  #5acd82 0%, #58cf83 68%, #7dcdb4 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5acd82), color-stop(68%,#58cf83), color-stop(100%,#7dcdb4)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #5acd82 0%,#58cf83 68%,#7dcdb4 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #5acd82 0%,#58cf83 68%,#7dcdb4 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #5acd82 0%,#58cf83 68%,#7dcdb4 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #5acd82 0%,#58cf83 68%,#7dcdb4 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5acd82', endColorstr='#7dcdb4',GradientType=0 ); /* IE6-9 */
+}
 
 /* Colors and fonts */
 body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 100%;}
-a:link, a:visited, #content a:link, dl.portlet a:link {color:#255780;}
+a:link, a:visited, #content a:link, dl.portlet a:link {color:#054187;}
 a:hover {color:#000;}
 h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
-h1 {color: #205C90;}
-h2, h3, h4, h5, h6 {color: #255780;}
+h1 {color: #054187;}
+h2, h3, h4, h5, h6 {color: #054187;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
-#main {background:#FFFFFF; font-size: 1.3em; padding: 1em 0;}
+#main {background:#FFFFFF; font-size: 11pt; padding: 1em 0 0 0;}
 
-#nav {background: #255780;	text-align: left; color: #FFFFFF;}
+#nav {background: #054187;	text-align: left; color: #FFFFFF;}
 #nav a {color: #FFFFFF;}
 #nav a:hover, #nav li.selected a {padding-top: 1em;background: transparent;}
 
@@ -34,8 +42,7 @@ border-width: 0px;
 margin: 10px 0 0 10px;
 font-size: 1.5em;
 }
-#doormat {background-color: transparent; color: #FFFFFF;
-	font-size: 130%;}
+#doormat {background-color: #000000; color: #FFFFFF;font-size: 130%;clear: left; padding: 2em;}
 #doormat a:link {color:#FFFFFF;}
 #doormat a:hover {color:#FFFFFF; text-decoration: underline;}
 #doormat a:visited {color:#FFFFFF;}
@@ -46,15 +53,15 @@ font-size: 1.5em;
 #content {font-size: 100%;}
 p {line-height: 1.8em; margin: 0 0 1em 0;}
 h1, h2, h3 {margin: 0.5em 0 1.2em 0;}
-.hidden {display: none;} 
+.hidden {display: none;}
 .clear {clear: both;}
-.pb-ajax, .pb-image, 
+.pb-ajax, .pb-image,
 .overlay iframe {font-size: 1.3em;}
 div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 .portlet img, #content img {max-width:100%;}
 
 /*header*/
-#header {background-size:100% auto;	position:relative;}
+#header {background-size:100% auto;	position:relative;background-color: #ffffff;}
 #logo {padding-bottom: 10px;float: left;}
 #logo img {max-width:100%;}
 #logo a {display:block; width:100%;}
@@ -64,7 +71,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #nav {padding: 1em 2em 1em 1em;}
 #nav ul {padding-top: 0;}
 #nav li {display: inline;}
-#nav a {	padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
+#nav a {padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
 #searchbt, #nav #seletor {display:none;}
 
 /* Searchbox */
@@ -78,8 +85,6 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #portal-searchbox .searchButton {text-align:center;}
 #LSResult {z-index:1; margin-top: 0.5%;color: #000000;}
 
-/*doormat*/
-#doormat {clear: left; padding: 2em;}
 
 /* Site Actions */
 #portal-siteactions {font-size: 100%; text-align: left; display:inline;}
@@ -91,13 +96,13 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
     #payoff {
 		bottom: 0!important;
 		font-size: 125%!important;
-	}	
+	}
 
 	.wrapper {max-width: 100%;}
 	#logo {min-width:174px;}
-	
+
 	/*Columns*/
-	#portal-column-one, 
+	#portal-column-one,
 	#portal-column-two,
 	#portal-column-content {clear: both; width: 97.75%; margin-left: -98.875%;}
 
@@ -107,9 +112,9 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 	/*Global navigation*/
 	#nav {padding:0;width:100%;
 	}
-	
+
 	#searchbt {display:block; float:right;width:14%;}
-	
+
 	#searchbt a {
 		display:block;
 		text-indent: -900000px;
@@ -117,30 +122,30 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 		margin-top: 4%;
 		background:transparent url(search-ico.png) no-repeat center center;
 	}
-	
+
 	#nav #seletor {
 		display:block;
 		padding:1em;
 		width:80%;
 		background:url("sections-ico.png") no-repeat 97% 60%;
 	 }
-	
+
 	#nav li {display: none;}
-	
+
 	#nav:hover li {
 		display: block;
-		width:100%; 
+		width:100%;
 		border-top:1px solid #ffffff;;
 		display:block !Important;
 		padding:0;
 	}
-	
+
 	#nav ul {
 		width:97.5%;
 		margin:0;
 		padding:0;
 	}
-	
+
 	#nav:hover li a {
 		color: #ffffff;;
 		width:100%;
@@ -149,11 +154,11 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
       display: block;
       width: 95% !important;
 	}
-	
+
 	#nav:hover li:hover {background: #ff9900;}
 	#nav:hover li a:hover,
 	#nav:hover li.selected a {background: transparent;}
-	
+
 .overlay.overlay-ajax {top: 10px !Important;}
 .overlay.overlay-ajax input.searchPage {
     font-size: 200% !important;
@@ -171,7 +176,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 	#payoff {display:none;}
 
 	#portal-breadcrumbs {display:none;}
-	
+
 	#portal-searchbox {
 	    float: none;
         width:80%;

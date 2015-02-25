@@ -10,20 +10,17 @@ img, img.image-left, img.image-right, .captioned img {
 #payoff
 {
     float: right;
-    font-size: 200%;
+    font-size: 14pt;
     font-weight: bold;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+    font-family: "Arial Bold", Arial,Helvetica,sans-serif;
     position: absolute; right: 1em; bottom: 25px;
-    color: #255780;
+    color: #054187;
 }
 #logo
 {
     font-size: 300%;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    -webkit-text-stroke: 1px rgba(0,0,0,0.1);
-    padding: 0em 0 0 0;
+    font-family: Arial,Helvetica,sans-serif;
+    padding: 1em;
 
 }
 
@@ -38,9 +35,12 @@ img, img.image-left, img.image-right, .captioned img {
 
 #sections-wrapper
 {
-    background-color: #255780;
     color: white;
 }
+
+.section-welkom div.row:nth-child(2){background: #054187;color: #ffffff;margin-left: -18px;width: 105.4%;}
+.section-welkom #content div.row:nth-child(2) h2{color: #ffffff;}
+.section-welkom #content div.row:nth-child(2) a, a:link{color: #ffffff;}
 
 div.position-1\:4 {
     margin-left: -74.875%;
@@ -56,7 +56,7 @@ div.position-1\:4 {
 #nav
 {
     font-size: 140%;
-    background-color: #255780;
+    background-color: #000000;
     font-weight: bold;
 }
 
@@ -66,24 +66,7 @@ div.position-1\:4 {
 }
 
 #portal-breadcrumbs
-{
-    font-size: 110%;
-    margin-left: 1.9em;
-    margin-right: 1.5em;
-    border-bottom: 2px dashed #255780;
-    padding-top: 1.5em;
-    padding-bottom: 0.8em;
-}
-
-#portal-breadcrumbs a:hover
-{
-    text-decoration: underline;
-}
-
-#breadcrumbs-current
-{
-    color: #000000;
-}
+{display:none;}
 
 .documentActions
 {
@@ -101,9 +84,9 @@ div.position-1\:4 {
 .documentActions ul li i
 {
     margin-top: 3px;
-    padding: 0 0 0 0.3em;
+    padding: 0em;
 }
-
+.documentActions a {color: #000000;}
 .icon-white {color: white;}
 
 div.searchSection {
@@ -132,14 +115,14 @@ div#portal-searchbox
     font-size: 143%;
 }
 
-div.LSBox input#searchGadget 
+div.LSBox input#searchGadget
 {
      border-radius: 0px
 }
 
 .portlet
 {
-    border-bottom: 2px dashed #255780;
+    border-bottom: 2px dashed #054187;
     padding-bottom: 1em;
 }
 
@@ -218,49 +201,47 @@ dl.portlet li:last-child
 {
     font-size: 246.2%;
     line-height: 120%;
-	font-weight: 700;
+	font-weight: bold;
 	letter-spacing: 0;
-	font-family: "Lato", Arial,Helvetica,sans-serif;
-	color: #c4161d;
+	font-family: Arial,Helvetica,sans-serif;
+	color: #054187;
 }
 
 #content h1
 {
     font-size: 170%;
     line-height: 120%;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    color: #c4161d;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #054187;
 }
 
 #content h2
 {
     font-size: 140%;
     line-height: 170%;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    color: #c4161d;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #054187;
 }
 
 #content h3
 {
     font-size: 108%;
     line-height: 110%;
-    font-weight: 700;
+    font-weight: bold;
     letter-spacing: 0;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    -webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+    font-family: Arial,Helvetica,sans-serif;
     color: #000000;
 }
 
 #content h1 a:link, #content h1 a:visited
 {
-	font-weight: 700;
+	font-weight: bold;
 	letter-spacing: 0;
-	font-family: "Lato", Arial,Helvetica,sans-serif;
-	-webkit-text-stroke: 1px rgba(212, 14, 22, 0.05);
+	font-family: Arial,Helvetica,sans-serif;
 	color: #000000;
 	border-bottom: none;
 }
@@ -276,7 +257,7 @@ dl.portlet li:last-child
     border-radius:0;
     color: black;
     padding: 0.25em 0em 0.1em;
-    border-bottom: 0.1em solid #c4161d;
+    border-bottom: 0.1em solid #054187;
     line-height: 1.6em;
 }
 #category a.link-category:hover {
@@ -289,7 +270,7 @@ dl.portlet li:last-child
 }
 #content h2 > a:link , #content h2 > a:visited{
     font-weight:700;
-    color: #c4161d;
+    color: #054187;
     text-decoration:none;
 }
 
@@ -308,8 +289,8 @@ dl.portlet li:last-child
 }
 #content h2 > a:hover{color: #D045aa;}
 #content div.newsImageContainer p.discreet {
-    background-color: rgba(40, 40, 40, 0.7);
-    color: White;
+    background-color: transparent;
+    color: #5ACD82;
     font-weight: bold;
     margin: 0;
     padding: 0.4em;
@@ -320,12 +301,10 @@ dl.portlet li:last-child
 
 #content .tileItem {
     padding-top: 1em;
-    border-top: 2px dashed #255780;
+    border-top: 2px dashed #054187;
 }
 
-#content div.row {
-    border-bottom: 2px dashed #255780;
-}
+
 #content .tile
 {
     margin-bottom: 30px;
@@ -362,7 +341,7 @@ dl.portlet li:last-child
     display: block;
     max-width: 100%;
     padding-rigth: 0.5 em;
-} 
+}
 
 #relatedItemBox dt
 {
@@ -378,7 +357,6 @@ dl.portlet li:last-child
 
 #doormat-wrapper
 {
-    background-color: #255780;
     font-size: 110%;
     line-height: 2em;
 }
@@ -386,15 +364,14 @@ dl.portlet li:last-child
 #doormat #c-doormat-sitemap dl
 {
     color: #A7BCCC;
-    width: 20%;
-    float: left;
+    width: 17%;
     min-width: 215px;
 }
 #doormat #c-doormat-sitemap dt
 {
     color: #FFFFFF;
-    font-family: "Lato", Arial,Helvetica,sans-serif;
-    font-weight: 700;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
 }
 p {
     line-height: 1.6em;
@@ -402,11 +379,11 @@ p {
 }
 .biggallery .galleria-thumbnails-container {
     display: none;
-}    
+}
 .biggallery .galleria-info-description {
     font: italic 12px/1.4 arial,sans-serif;
     margin: 0;
-    color: #255780;
+    color: #054187;
 }
 
 .biggallery .galleria-inner {
