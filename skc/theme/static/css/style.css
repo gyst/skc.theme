@@ -19,13 +19,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5acd82', end
 }
 
 /* Colors and fonts */
-body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 100%;}
+body {color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 0.95em;}
 a:link, a:visited, #content a:link, dl.portlet a:link {color:#054187;}
 a:hover {color:#000;}
 h1, h2, h3, h4, h5, h6 {font-family: Arial, Helvetica, sans-serif;}
 h1 {color: #054187;}
 h2, h3, h4, h5, h6 {color: #054187;}
-.wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
+.wrapper { width:auto; margin: 0 auto; max-width: 1170px;}
 #main {background:#FFFFFF; font-size: 11pt; padding: 1em 0 0 0;}
 
 #nav {background: #054187;	text-align: left; color: #FFFFFF;}
@@ -50,7 +50,7 @@ font-size: 1.5em;
 
 /****************** Basic Stuff ***********************/
 
-#content {font-size: 100%;}
+#content {font-size: 0.95em;}
 p {line-height: 1.8em; margin: 0 0 1em 0;}
 h1, h2, h3 {margin: 0.5em 0 1.2em 0;}
 .hidden {display: none;}
@@ -68,7 +68,7 @@ div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 #portal-personaltools {font-size: 1.1em;}
 
 /* navigation */
-#nav {padding: 1em 2em 1em 1em;}
+#nav {padding: 0.6em 1em;}
 #nav ul {padding-top: 0;}
 #nav li {display: inline;}
 #nav a {padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}

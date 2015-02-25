@@ -38,9 +38,13 @@ img, img.image-left, img.image-right, .captioned img {
     color: white;
 }
 
-.section-welkom div.row:nth-child(2){background: #054187;color: #ffffff;margin-left: -18px;width: 105.4%;}
+.section-welkom #content div.row:nth-child(2) {background: #054187;color: #ffffff;margin-left: -16px;width: 105.7%;}
 .section-welkom #content div.row:nth-child(2) h2{color: #ffffff;}
 .section-welkom #content div.row:nth-child(2) a, a:link{color: #ffffff;}
+
+#LSResult h2{color: #054187;}
+#LSResult a, a:link{color: #054187;}
+
 
 div.position-1\:4 {
     margin-left: -74.875%;
@@ -55,14 +59,14 @@ div.position-1\:4 {
 
 #nav
 {
-    font-size: 140%;
+    font-size: 1.3em;
     background-color: #000000;
     font-weight: bold;
 }
 
 #nav a:hover, #nav li.selected a {
     background-color: transparent;
-    color: #a7bccc;
+    color: #5acd82;
 }
 
 #portal-breadcrumbs
@@ -97,8 +101,9 @@ div#portal-searchbox
 {
     height: 46px;
     clear: none;
-    margin: 0 3em 0 0;
+    margin: -0.6em 3em 0 0;
     color: black;
+    font-size: 1em;
 }
 
 #portal-searchbox #searchGadget
@@ -219,8 +224,8 @@ dl.portlet li:last-child
 
 #content h2
 {
-    font-size: 140%;
-    line-height: 170%;
+    font-size: 1.5em;
+    line-height: 1.1em;
     font-weight: bold;
     letter-spacing: 0;
     font-family: Arial,Helvetica,sans-serif;
@@ -285,9 +290,9 @@ dl.portlet li:last-child
 	color: black;
 }
 #content a:hover, dl.portlet a:hover {
-    color: #666 ;
+    color: #5acd82;
 }
-#content h2 > a:hover{color: #D045aa;}
+#content h2 > a:hover{color: #5acd82;}
 #content div.newsImageContainer p.discreet {
     background-color: transparent;
     color: #5ACD82;
