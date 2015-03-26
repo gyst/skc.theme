@@ -1,14 +1,16 @@
 body{line-height:180%}
 img,img.image-left,img.image-right,.captioned img{border:0}
 #payoff{float:right;font-size:14pt;font-weight:700;font-family:"Arial Bold",Arial,Helvetica,sans-serif;position:absolute;right:1em;bottom:25px;color:#054187}
-#logo{font-size:300%;font-family:Arial,Helvetica,sans-serif;padding:1em}
+#logo{font-size:300%;font-family:Arial,Helvetica,sans-serif;padding:1em 1em 1em 0.5em}
 #logo a{display:block;width:100%}
 @media all and (max-width:940px){#payoff{position:relative}
 }
 .state-published{color:#000!important}
 #sections-wrapper{color:#fff}
-.section-welkom #content div.row:nth-child(2){background:#054187;color:#fff;margin-left:-16px;width:105.7%}
-.section-welkom #content div.row:nth-child(2) h2{color:#fff}
+.row {margin: 0 -15px;}
+#content div.row{width:106%;}
+.section-welkom #content div.row:nth-child(2){background:#054187;color:#fff;margin-left: -18px;}
+.section-welkom #content div.row:nth-child(2) h2{color:#fff;margin-top:1em;}
 .section-welkom #content div.row:nth-child(2) a,a:link{color:#fff}
 #LSResult h2{color:#054187}
 #LSResult a,a:link{color:#054187}
@@ -28,8 +30,8 @@ div#portal-searchbox{height:46px;clear:none;margin:-.6em 3em 0 0;color:#000;font
 .searchButton{margin-top:.2em}
 .LSBox{height:46px;width:150px;font-size:143%}
 div.LSBox input#searchGadget{border-radius:0}
-.portlet{border-bottom:2px dashed #054187;padding-bottom:1em}
-dl.portlet dt{border-bottom:none;color:#000;background-color:#fff;font-size:130%;padding:0 .42em}
+.portlet{border-bottom:none;padding-bottom:1em}
+dl.portlet dt{border-bottom:none;color:#000;background-color:transparent;font-size:130%;padding:0 .42em}
 dl.portlet dt a,dl.portlet dt a:hover,dl.portlet dt a:link{color:#000;background-color:#fff}
 .portlet dd{border-left:none;border-right:none}
 dl.portlet{font-size:90%}
@@ -44,7 +46,7 @@ dl.portlet li:last-child{margin-bottom:0}
 #content h1.documentFirstHeading{font-size:246.2%}
 #content h1.documentFirstHeading,#content h1{line-height:120%;font-weight:700;letter-spacing:0;font-family:Arial,Helvetica,sans-serif;color:#054187}
 #content h1{font-size:170%}
-#content h2{font-size:1.5em;line-height:1.1em;color:#054187}
+#content h2{font-size:1.5em;line-height:1.2em;color:#054187}
 #content h2,#content h3{font-weight:700;letter-spacing:0;font-family:Arial,Helvetica,sans-serif}
 #content h3{font-size:108%;line-height:110%;color:#000}
 #content h1 a:link,#content h1 a:visited{font-weight:700;letter-spacing:0;font-family:Arial,Helvetica,sans-serif;color:#000;border-bottom:none}
@@ -71,7 +73,7 @@ dl.portlet li:last-child{margin-bottom:0}
 #doormat-wrapper{font-size:110%;line-height:2em}
 #doormat #c-doormat-sitemap dl{color:#A7BCCC;width:17%;min-width:215px}
 #doormat #c-doormat-sitemap dt{color:#fff;font-family:Arial,Helvetica,sans-serif;font-weight:700}
-p{line-height:1.6em;margin:0 0 1em}
+p{line-height:1.4em;margin:0 0 1em}
 .biggallery .galleria-thumbnails-container{display:none}
 .biggallery .galleria-info-description{font:italic 12px/1.4 arial,sans-serif;margin:0;color:#054187}
 .biggallery .galleria-inner{height:786px;width:100%}
