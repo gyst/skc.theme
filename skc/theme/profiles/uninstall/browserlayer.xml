@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Schone Kleren Campagne Theme" remove="True"
+           interface="skc.theme.browser.interfaces.IThemeSpecific" />
+</layers>

@@ -11,4 +11,12 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="Uninstall Schone Kleren Campagne Theme"
+      directory="profiles/uninstall"
+      description='Extension profile for the "Schone Kleren Campagne" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
 </configure>
